@@ -1,0 +1,18 @@
+
+.cart-widget {
+    align-items: center;
+    background-color: #c4c1f3;
+    display: flex;
+  }
+  
+.cart-icon {
+    font-size: 3rem;
+    margin-right: 5px;
+    color: #4526b4;
+}
+
+
+.App{
+    color: #4526b4;
+    font-size: 2em;
+}
