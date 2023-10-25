@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
-import { useCart } from './CartContext';
 
 const NavBar = () => {
-  const { cart } = useCart();
 
   return (
     <nav className="navbar">

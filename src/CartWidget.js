@@ -6,8 +6,6 @@ import { useCart } from './CartContext';
 const CartWidget = () => {
   const { cart } = useCart();
 
-  const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
-
   return (
     <div className="cart-widget">
       <FaShoppingCart className="cart-icon" />

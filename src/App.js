@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CheckoutPage from './Checkout';
+import CheckoutPage from './CheckoutPage';
 import ItemListContainer from './ItemListContainer';
 import './App.css';
 import ItemDetailContainer from './ItemDetailContainer';
